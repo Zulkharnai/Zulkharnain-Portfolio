@@ -6,6 +6,7 @@ import Skill from '../componenets/Skill.js';
 import TopProject from '../componenets/TopProject.js';
 import Contact from '../componenets/contact.js';
 import Footer from '../componenets/footer.js';
+import { Experience } from '../componenets/Experience.js';
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
             <Profile />
             <About />
             <Skill />
+            <Experience />
             <TopProject />
             <Contact />
             <Footer />

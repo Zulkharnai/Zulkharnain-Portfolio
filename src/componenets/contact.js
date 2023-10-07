@@ -10,15 +10,16 @@ function Contact() {
                         alt="Email icon"
                         className="icon contact-icon email-icon"
                     />
-                    <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+                    <p>syedzulkharnain334@gmail.com</p>
                 </div>
                 <div className="contact-info-container">
                     <img
                         src="./assets/linkedin.png"
                         alt="LinkedIn icon"
                         className="icon contact-icon"
+                        onClick={() => { window.location.href = 'https://www.linkedin.com/in/syedzulkharnain/' }}
                     />
-                    <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+                    <p><a href={() => { window.location.href = 'https://www.linkedin.com/in/syedzulkharnain/' }}>LinkedIn</a></p>
                 </div>
             </div>
         </section>

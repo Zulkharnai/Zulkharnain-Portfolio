@@ -1,7 +1,7 @@
 function Skill() {
     return (
         <div>
-            <section id="experience">
+            <section id="skill">
                 <p className="section__text__p1">Explore My</p>
                 <h1 className="title">My Skills</h1>
                 <div className="experience-details-container">
@@ -120,6 +120,28 @@ function Skill() {
                                         className="icon"
                                     />
                                     <div>
+                                        <h3>PHP</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img
+                                        src="./assets/checkmark.png"
+                                        alt="Experience icon"
+                                        className="icon"
+                                    />
+                                    <div>
+                                        <h3>Laravel</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img
+                                        src="./assets/checkmark.png"
+                                        alt="Experience icon"
+                                        className="icon"
+                                    />
+                                    <div>
                                         <h3>Git</h3>
                                         <p>Experienced</p>
                                     </div>
@@ -128,11 +150,6 @@ function Skill() {
                         </div>
                     </div>
                 </div>
-                <img
-                    src="./assets/arrow.png"
-                    alt="Arrow icon"
-                    className="icon arrow"
-                />
             </section>
         </div>
     );

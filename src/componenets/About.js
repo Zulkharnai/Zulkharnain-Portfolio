@@ -4,13 +4,6 @@ function about() {
             <p className="section__text__p1">Get To Know More</p>
             <h1 className="title">About Me</h1>
             <div className="section-container">
-                <div className="section__pic-container">
-                    <img
-                        src="./assets/about-pic.png"
-                        alt="Profile picture"
-                        className="about-pic"
-                    />
-                </div>
                 <div className="about-details-container">
                     <div className="about-containers">
                         <div className="details-container">
@@ -20,7 +13,7 @@ function about() {
                                 className="icon"
                             />
                             <h3>Experience</h3>
-                            <p>2+ years <br />Frontend Development</p>
+                            <p>1+ years <br />Backend Development</p>
                         </div>
                         <div className="details-container">
                             <img
@@ -29,27 +22,16 @@ function about() {
                                 className="icon"
                             />
                             <h3>Education</h3>
-                            <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+                            <p>B.Sc. Bachelors Degree<br /></p>
                         </div>
                     </div>
                     <div className="text-container">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                            reprehenderit et laborum, rem, dolore eum quod voluptate
-                            exercitationem nobis, nihil esse debitis maxime facere minus sint
-                            delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-                            reiciendis ea magnam? Nulla, impedit fuga!
+                            Hello! I'm a Backend Developer with a passion for web development. My skill set includes JavaScript for creating interactive user interfaces, jQuery for dynamic web experiences, PHP and Laravel for robust backend solutions, and expertise in managing data with MySQL, MongoDB, and PostgreSQL. Eager to contribute my skills to innovative projects and collaborate with like-minded professionals.
                         </p>
                     </div>
                 </div>
             </div>
-            <img
-                src="./assets/arrow.png"
-                alt="Arrow icon"
-                className="icon arrow"
-            // onClick={location.href = './#experience'}
-            />
         </section>
     );
 }

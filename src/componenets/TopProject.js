@@ -9,12 +9,13 @@ function TopProject() {
                         <div className="details-container color-container">
                             <div className="article-container">
                                 <img
-                                    src="./assets/project-1.png"
+                                    src="./assets/E-muallim.png"
                                     alt="Project 1"
                                     className="project-img"
                                 />
                             </div>
-                            <h2 className="experience-sub-title project-title">Project One</h2>
+                            <h2 className="experience-sub-title project-title">E-learning platform (Web App)
+                            </h2>
                             <div className="btn-container">
                                 <button
                                     className="btn btn-color-2 project-btn"
@@ -24,7 +25,7 @@ function TopProject() {
                                 <button
                                     className="btn btn-color-2 project-btn"
                                 >
-                                    Live Demo
+                                    Details
                                 </button>
                             </div>
                         </div>
@@ -36,7 +37,7 @@ function TopProject() {
                                     className="project-img"
                                 />
                             </div>
-                            <h2 className="experience-sub-title project-title">Project Two</h2>
+                            <h2 className="experience-sub-title project-title">ERP Software (Desktop Application)</h2>
                             <div className="btn-container">
                                 <button
                                     className="btn btn-color-2 project-btn"
@@ -46,42 +47,13 @@ function TopProject() {
                                 <button
                                     className="btn btn-color-2 project-btn"
                                 >
-                                    Live Demo
+                                    Details
                                 </button>
                             </div>
                         </div>
-                        {/* <div className="details-container color-container">
-                            <div className="article-container">
-                                <img
-                                    src="./assets/project-3.png"
-                                    alt="Project 3"
-                                    className="project-img"
-                                />
-                            </div>
-                            <h2 className="experience-sub-title project-title">Project Three</h2>
-                            <div className="btn-container">
-                                <button
-                                    className="btn btn-color-2 project-btn"
-                                // onClick="location.href='https://github.com/'"
-                                >
-                                    Github
-                                </button>
-                                <button
-                                    className="btn btn-color-2 project-btn"
-                                // onClick="location.href='https://github.com/'"
-                                >
-                                    Live Demo
-                                </button>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
-                <img
-                    src="./assets/arrow.png"
-                    alt="Arrow icon"
-                    className="icon arrow"
-                // onClick="location.href='./#contact'"
-                />
+
             </section>
         </div>
     );
