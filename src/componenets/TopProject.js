@@ -6,10 +6,13 @@ function TopProject() {
                 <h1 className="title">Projects</h1>
                 <div className="experience-details-container">
                     <div className="about-containers">
-                        <div className="details-container color-container">
+                        <div className="details-container color-container" style={{
+                            margin: 'auto',
+                            marginTop: '0px'
+                        }}>
                             <div className="article-container">
                                 <img
-                                    src="./assets/E-muallim.png"
+                                    src="./assets/e-muallim.jpg"
                                     alt="Project 1"
                                     className="project-img"
                                 />
@@ -19,6 +22,7 @@ function TopProject() {
                             <div className="btn-container">
                                 <button
                                     className="btn btn-color-2 project-btn"
+                                    onClick={() => { window.location.href = 'https://github.com/Zulkharnai/E-muallim' }}
                                 >
                                     Github
                                 </button>
@@ -32,7 +36,7 @@ function TopProject() {
                         <div className="details-container color-container">
                             <div className="article-container">
                                 <img
-                                    src="./assets/project-2.png"
+                                    src="./assets/pushpak.jpg"
                                     alt="Project 2"
                                     className="project-img"
                                 />
@@ -41,6 +45,7 @@ function TopProject() {
                             <div className="btn-container">
                                 <button
                                     className="btn btn-color-2 project-btn"
+                                    onClick={() => { window.location.href = 'https://github.com/Zulkharnai/pushpak_backend' }}
                                 >
                                     Github
                                 </button>
@@ -54,8 +59,8 @@ function TopProject() {
                     </div>
                 </div>
 
-            </section>
-        </div>
+            </section >
+        </div >
     );
 }
 
