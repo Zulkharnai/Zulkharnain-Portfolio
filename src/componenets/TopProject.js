@@ -12,13 +12,12 @@ function TopProject() {
                         }}>
                             <div className="article-container">
                                 <img
-                                    src="./assets/e-muallim.jpg"
+                                    src="./assets/Vehicle_tracking.png"
                                     alt="Project 1"
                                     className="project-img"
                                 />
                             </div>
-                            <h2 className="experience-sub-title project-title">E-learning platform (Web App)
-                            </h2>
+                            <h2 className="experience-sub-title project-title">Vehicle Tracking Software</h2>
                             <div className="btn-container">
                                 <button
                                     className="btn btn-color-2 project-btn"
@@ -36,12 +35,12 @@ function TopProject() {
                         <div className="details-container color-container">
                             <div className="article-container">
                                 <img
-                                    src="./assets/pushpak.jpg"
-                                    alt="Project 2"
+                                    src="./assets/Vehicle_tracking.png"
+                                    alt="Pushpak Project Image"
                                     className="project-img"
                                 />
                             </div>
-                            <h2 className="experience-sub-title project-title">ERP Software (Desktop Application)</h2>
+                            <h2 className="experience-sub-title project-title">Animal Admin & Veterinary Application</h2>
                             <div className="btn-container">
                                 <button
                                     className="btn btn-color-2 project-btn"

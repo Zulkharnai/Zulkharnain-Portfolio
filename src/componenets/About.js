@@ -13,7 +13,7 @@ function about() {
                                 className="icon"
                             />
                             <h3>Experience</h3>
-                            <p>1+ years <br />Backend Development</p>
+                            <p>2+ years <br />Backend Development</p>
                         </div>
                         <div className="details-container">
                             <img
@@ -26,8 +26,12 @@ function about() {
                         </div>
                     </div>
                     <div className="text-container">
-                        <p>
+                        {/* <p>
                             Hello! I'm a Backend Developer with a passion for web development. My skill set includes JavaScript for creating interactive user interfaces, jQuery for dynamic web experiences, PHP and Laravel for robust backend solutions, and expertise in managing data with MySQL, MongoDB, and PostgreSQL. Eager to contribute my skills to innovative projects and collaborate with like-minded professionals.
+                        </p> */}
+                        <p>Experienced Jr. Node.js Developer with over 2 years of hands-on experience in backend development. Currently pursuing an
+                            undergraduate degree, I aspire to specialize in full-stack development, aiming to become a proficient MERN Stack developer.
+                            Passionate about leveraging technology to drive innovation, I thrive in collaborative environments.
                         </p>
                     </div>
                 </div>

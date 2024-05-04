@@ -21,7 +21,7 @@ export const Experience = () => {
                                                 Working on Node.js, Socket.io APIs, and RESTful APIs..
                                             </p>
                                         </li>
-                                        <li class="event" data-date="Nov 2022 - Aug 2023 ">
+                                        <li class="event" data-date="Nov 2021 – Apr 2023 ">
                                             <h3>Backend Developer</h3>
                                             <p style={{ fontSize: '15px', marginBottom: '10px', color: 'rgba(100, 100, 100, 0.6)' }}>Dualsysco Research & Development</p>
                                             <p style={{ marginBottom: '10px' }}>
@@ -31,7 +31,7 @@ export const Experience = () => {
                                                 Worked as a Backend Developer handling Node.js, Laravel, and RESTful APIs..
                                             </p>
                                         </li>
-                                        <li class="event" data-date="May 2022 - Nov 2022">
+                                        {/* <li class="event" data-date="May 2022 - Nov 2022">
                                             <h3>Software Testing Internship</h3>
                                             <p style={{ fontSize: '15px', marginBottom: '10px', color: 'rgba(100, 100, 100, 0.6)' }}>QualSoft Pvt Ltd</p>
                                             <p style={{ marginBottom: '10px' }}>
@@ -41,7 +41,7 @@ export const Experience = () => {
                                                 My primary responsibilities encompass thoroughly testing software to identify and report any defects, ensuring its reliability and quality.
                                             </p>
 
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>

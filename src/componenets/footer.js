@@ -12,7 +12,6 @@ function Profile() {
                     </ul>
                 </div>
             </nav>
-            <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
         </footer>
     );
 }
