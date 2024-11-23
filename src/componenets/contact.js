@@ -23,7 +23,7 @@ function Contact() {
             email: formData.email,
             message: formData.message
           };
-        console.log(formData)
+          
         e.preventDefault();
     
         emailjs.send('service_asu11oo', 'template_trlhq5v', emailformData, 'SvtgseaIT5lIcBWU3')
