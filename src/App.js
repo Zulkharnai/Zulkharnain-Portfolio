@@ -6,7 +6,7 @@ import WebRoutes from './Routes/Routes';
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#d7e5d2" }}>
+    <div>
       <WebRoutes />
     </div>
   );

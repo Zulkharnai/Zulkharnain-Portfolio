@@ -1,9 +1,9 @@
 function Skill() {
     return (
-        <div>
-            <section id="skill">
+        <div style={{background: 'rgba(8, 8, 8, 0.04)'}}>
+            <section id="skill" >
                 <p className="section__text__p1">Explore My</p>
-                <h1 className="title">My Skills</h1>
+                <h1 className="section-title">My Skills</h1>
                 <div className="experience-details-container">
                     <div className="about-containers">
                         <div className="details-container">

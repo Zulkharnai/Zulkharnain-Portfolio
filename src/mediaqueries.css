@@ -1,8 +1,8 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    /* height: 83vh; */
     height: 59vh;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
   }
   .about-containers {
     flex-wrap: wrap;
@@ -54,7 +54,7 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    height: 55vh;
     margin-bottom: 0;
   }
   article {
@@ -100,5 +100,12 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .section-title{
+    font-size: 4rem;
+  }
+  .footer-section{
+    background-color: #1c1f25;
+    height: 100%;
   }
 }
