@@ -1,6 +1,17 @@
 function Profile() {
     return (
-        <div style={{ backgroundColor: 'rgba(8, 8, 8, 0.04)' }}>
+        // backgroundColor: 'rgba(8, 8, 8, 0.04)'
+        <div style={{
+            backgroundImage: "url('./assets/background-home.png')",
+            backgroundSize: "cover", // Makes the image cover the entire container
+            backgroundPosition: "center", // Centers the image
+            backgroundRepeat: "no-repeat", // Prevents tiling
+            height: "100vh", // Full height of the viewport
+            display: "flex", // Flexbox for alignment
+            justifyContent: "center", // Centers content horizontally
+            alignItems: "center", // Centers content vertically
+            textAlign: "center", // Centers text inside the content
+        }}>
             <section id="profile">
                 <div className="section__pic-container">
                     <img src="./assets/ProfilePhoto.jpg" alt="Zulkharnain profile picture" />

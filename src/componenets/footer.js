@@ -40,9 +40,12 @@ function Profile() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="social-link"
-                                style={{ color: 'white' }}
                             >
-                                <img src="./assets/linkedin.png" alt="LinkedIn" />
+                                <img
+                                    src="./assets/linkedin.png"
+                                    alt="LinkedIn"
+                                    style={{ filter: "brightness(0) invert(1)" }} // Inline style for white color
+                                />
                             </a>
                             <a
                                 href="https://github.com/"
@@ -50,7 +53,11 @@ function Profile() {
                                 rel="noopener noreferrer"
                                 className="social-link"
                             >
-                                <img src="./assets/github.png" alt="GitHub" />
+                                <img
+                                    src="./assets/github.png"
+                                    alt="GitHub"
+                                    style={{ filter: "brightness(0) invert(1)" }} // Inline style for white color
+                                />
                             </a>
                             <a
                                 href="https://twitter.com/"
@@ -58,8 +65,16 @@ function Profile() {
                                 rel="noopener noreferrer"
                                 className="social-link"
                             >
-                                <i className="fa fa-github icon" aria-hidden="true"></i>
+                                <i
+                                    className="fa fa-github icon"
+                                    aria-hidden="true"
+                                    style={{
+                                        color: "white", // Ensures font icons are white
+                                        fontSize: "24px", // Adjust size for consistency
+                                    }}
+                                ></i>
                             </a>
+
                         </div>
                     </div>
                 </div>

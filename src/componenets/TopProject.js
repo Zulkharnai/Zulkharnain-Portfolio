@@ -1,6 +1,6 @@
 function TopProject() {
     return (
-        <div>
+        <div style={{backgroundColor: 'rgba(8, 8, 8, 0.04)'}}>
             <section id="projects">
                 <p className="section__text__p1">Browse My Recent</p>
                 <h1 className="section-title">Projects</h1>

@@ -10,7 +10,13 @@ import { Experience } from '../componenets/Experience.js';
 
 function Home() {
     return (
-        <div>
+        <div
+            style={{
+                height: "100vh",
+                overflowY: "scroll", // Allows scrolling
+                scrollbarWidth: "none", // Hides scrollbar in Firefox
+            }}
+        >
             <NavBar />
             <Profile />
             <About />
