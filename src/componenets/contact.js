@@ -21,7 +21,8 @@ function Contact() {
             from_name: 'Syed Zulkharnain',
             to_name: formData.name,
             email: formData.email,
-            message: formData.message
+            message: formData.message,
+            reply_to: formData.email
           };
           
         e.preventDefault();
