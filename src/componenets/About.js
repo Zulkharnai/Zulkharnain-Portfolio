@@ -25,7 +25,7 @@ function about() {
                             />
                             <h3>Education</h3>
                             <p>
-                                <strong>B.Sc</strong> Undergraduate Degree
+                                <strong>M.Sc</strong> Master's Degree
                             </p>
                         </div>
                     </div>
