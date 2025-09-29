@@ -354,6 +354,27 @@ section {
   flex-direction: column;
 }
 
+.project-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 1.5rem; /* Adjust as needed */
+  padding: 1rem;
+  scroll-behavior: smooth;
+  /* Hide scrollbars for Webkit browsers */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.project-scroll::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.project-scroll {
+  min-width: 320px; 
+  flex: 0 0 auto;    /* Prevent flex shrinking */
+  box-sizing: border-box;
+}
+
 .article-container {
   display: flex;
   text-align: initial;
@@ -407,7 +428,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: auto;
 }
 
 .contact-info-upper-container {

@@ -2,6 +2,7 @@
 import './App.css';
 import './script.js';
 import './mediaqueries.css';
+import './Blog.css'
 import WebRoutes from './Routes/Routes';
 
 function App() {

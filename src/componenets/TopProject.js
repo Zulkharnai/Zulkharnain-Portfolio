@@ -5,7 +5,7 @@ function TopProject() {
                 <p className="section__text__p1">Browse My Recent</p>
                 <h1 className="section-title">Projects</h1>
                 <div className="experience-details-container">
-                    <div className="about-containers">
+                    <div className="about-containers project-scroll">
                         {/* Project 1 */}
                         <div className="details-container top-container color-container">
                             <div className="article-container">

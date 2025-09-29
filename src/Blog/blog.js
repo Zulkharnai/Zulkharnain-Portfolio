@@ -1,9 +1,42 @@
-import React from 'react'
+import { toast } from "react-toastify";
 
-function blog() {
-    return (
-        <div>blog</div>
-    )
+const dsaPoints = [
+  {
+    title: "Pattern Programs",
+    description: "Printing patterns using JavaScript programs has always been an interesting problem domain. We can print different patterns like star patterns, pyramid patterns, Floyd's triangle, Pascal's triangle, etc.",
+  },
+  {
+    title: "Arrays & Searching",
+    description: "Mastered common operations, binary search, and patterns in arrays.",
+  },
+  {
+    title: "Linked Lists",
+    description: "Learned singly and doubly linked lists, reverse and circular lists.",
+  },
+  {
+    title: "Stacks & Queues",
+    description: "Implemented stack, queue, and their applications in algorithms.",
+  },
+  // Add more DSA topics as you learn them
+];
+
+function DsaCardSection() {
+  return (
+    <section id="dsa">
+      <p className="section__text__p1">My DSA Learning Journey</p>
+      <h1 className="section-title">DSA Points</h1>
+      <div className="experience-details-container">
+        <div className="blog-containers">
+          {dsaPoints.map((point, idx) => (
+            <div className="blog-details-container color-container" key={idx} onClick={() => toast.info("Coming Soon!")}>
+              <h2 className="experience-sub-title project-title">{point.title}</h2>
+              <p className="project-description">{point.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default blog
+export default DsaCardSection;
