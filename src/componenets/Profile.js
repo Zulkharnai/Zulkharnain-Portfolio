@@ -19,7 +19,7 @@ function Profile() {
                 <div className="section__text">
                     <p className="">Hello, I'm</p>
                     <h1 className="title">Syed Zulkharnain</h1>
-                    <p className="section__text__p2">MERN Stack Developer</p>
+                    <p className="section__text__p2">Full Stack Developer</p>
                     <div className="btn-container">
                         <button
                             className="btn btn-color-2"

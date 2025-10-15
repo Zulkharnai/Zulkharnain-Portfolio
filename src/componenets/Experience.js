@@ -11,7 +11,7 @@ export const Experience = () => {
                                 <h6 class="section-title">Experience</h6>
                                 <div id="content">
                                     <ul class="timeline">
-                                        <li class="event" data-date="Aug 2023 - Present">
+                                        <li class="event" data-date="Aug 2023 - July 2025">
                                             <h3>Node Js Developer</h3>
                                             <p class="company-name">Redbytes Software Pvt Ltd</p>
                                             <p class="skills">Skill: <strong>Node.js · Socket.IO · MQTT · ExpressJs · Deployment</strong></p>
